@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+}
+
+body {
+  background-color: black;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: 12px 20px;
+  flex-wrap: wrap;
+}
+
+.logo span {
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 10px 0 0 0;
+  flex-wrap: wrap;
+}
+
+li {
+  color: white;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+li:hover {
+  color: #00ffcc;
+}
+
+/* Container */
+.container {
+  background-color: rgb(69, 67, 67);
+  border-radius: 10px;
+  margin: 20px auto;
+  padding: 20px;
+  width: 95%;
+  max-width: 800px;
+  min-height: 80vh;
+}
+
+/* Headings */
+.container h2 {
+  color: rgb(226, 227, 228);
+  margin-top: 30px;
+  text-align: center;
+}
+
+.addtodo h3 {
+  color: rgb(161, 193, 253);
+  margin-bottom: 10px;
+}
+
+/* Add Task Section */
+.addtodo {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.addtodo input {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  flex: 1 1 250px;
+  min-width: 200px;
+  max-width: 300px;
+}
+
+.b {
+  background-color: #ceb2f1;
+  padding: 10px 16px;
+  border-radius: 7px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  white-space: nowrap;
+}
+
+.b:hover {
+  background-color: #c836f9;
+  color: aliceblue;
+}
+.d {
+  background-color: #21a6ff;
+  padding: 10px 16px;
+  border-radius: 7px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  white-space: nowrap;
+}
+
+.d:hover {
+  background-color: #41abec;
+  color: aliceblue;
+}
+
+/* Task Items */
+.todos {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.todo {
+  background-color: #2c2c2c;
+  color: white;
+  border-radius: 5px;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.text {
+  flex: 1 1 250px;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  word-break: break-word;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.buttons button {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: #00ffcc;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.buttons button:hover {
+  background-color: #067b63;
+  color: aliceblue;
+}
+.del {
+  background-color: #ff4d4d; /* red color */
+  color: rgb(255, 0, 0);
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.del:hover {
+  background-color: #cc0000; /* darker red on hover */
+  
+}
+
+input[type="checkbox"] {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+/* Filter Buttons */
+.filter-buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .addtodo input {
+    width: 100%;
+  }
+
+  .text {
+    flex: 1 1 100%;
+    margin-right: 0;
+  }
+
+  .todo {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .buttons {
+    width: 100%;
+    justify-content: flex-end;
+  }
+
+
+
+}
