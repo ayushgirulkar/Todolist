@@ -1,12 +1,22 @@
-# React + Vite
+I’ve built a sleek and simple To-Do List Web App using React, JavaScript, and CSS, with a smooth and easy-to-use UI.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🛠️ Tech Stack:
 
-Currently, two official plugins are available:
+React (Frontend)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+JavaScript (Logic)
 
-## Expanding the ESLint configuration
+CSS (Styling)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📋 Features:
+
+Add, delete, and manage daily tasks
+
+Minimal UI for fast interaction
+
+Mobile-friendly design
+
+🔗 Try it out:
+👉 https://lnkd.in/gJ7DVyzC
+
+⚠️ If the link doesn’t open on mobile data, try using Wi-Fi (DNS may take a moment to resolve)
