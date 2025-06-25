@@ -17,6 +17,6 @@ Minimal UI for fast interaction
 Mobile-friendly design
 
 🔗 Try it out:
-👉 https://lnkd.in/gJ7DVyzC
+👉 https://taskpilot-ayush-ayush-girulkars-projects.vercel.app/
 
 ⚠️ If the link doesn’t open on mobile data, try using Wi-Fi (DNS may take a moment to resolve)
